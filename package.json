@@ -1,0 +1,23 @@
+{
+  "name": "HackerNews",
+  "scripts": {
+    "dev": "bun run --hot server/index.ts",
+    "formate:write": "prettier . --write",
+    "formate:check": "prettier . --check"
+  },
+  "dependencies": {
+    "hono": "^4.6.13"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.2.4",
+    "@eslint/js": "^9.16.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
+    "@types/bun": "latest",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-drizzle": "^0.2.3",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.2",
+    "typescript-eslint": "^8.18.0"
+  }
+}
